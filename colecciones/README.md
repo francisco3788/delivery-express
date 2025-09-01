@@ -21,11 +21,6 @@ mkdir bin
 javac -d bin src/main/java/modelo/*.java src/main/java/colecciones/*.java src/main/java/app/*.java
 
 
-
-
-
-
-
 explicación de cada parte
 
 Parte A: Uso de ArrayList y LinkedList para registrar pedidos en orden de llegada e inserción de pedidos urgentes.
@@ -35,3 +30,4 @@ Parte B: Uso de HashSet para manejar duplicados.
 Parte C: Uso de HashMap para indexar pedidos por cliente y calcular el total gastado.
 
 Parte D: Implementación de método genérico filtrar y pruebas con productos específicos y montos mayores a 50.
+
