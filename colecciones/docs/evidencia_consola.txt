@@ -1,0 +1,19 @@
+=== Parte A: Listas ===
+ArrayList inicial: [Pedido{cliente='Ana', producto='Pizza', precio=40.0}, Pedido{cliente='Luis', producto='Hamburguesa', precio=25.0}, Pedido{cliente='Marta', producto='Ensalada', precio=15.0}, Pedido{cliente='Carlos', producto='Pizza', precio=55.0}, Pedido{cliente='Elena', producto='Sushi', precio=70.0}]
+ArrayList con urgentes: [Pedido{cliente='Maria', producto='Pizza', precio=60.0}, Pedido{cliente='Pedro', producto='HotDog', precio=20.0}, Pedido{cliente='Ana', producto='Pizza', precio=40.0}, Pedido{cliente='Luis', producto='Hamburguesa', precio=25.0}, Pedido{cliente='Marta', producto='Ensalada', precio=15.0}, Pedido{cliente='Carlos', producto='Pizza', precio=55.0}, Pedido{cliente='Elena', producto='Sushi', precio=70.0}]
+LinkedList: [Pedido{cliente='Maria', producto='Pizza', precio=60.0}, Pedido{cliente='Pedro', producto='HotDog', precio=20.0}, Pedido{cliente='Ana', producto='Pizza', precio=40.0}, Pedido{cliente='Luis', producto='Hamburguesa', precio=25.0}, Pedido{cliente='Marta', producto='Ensalada', precio=15.0}, Pedido{cliente='Carlos', producto='Pizza', precio=55.0}, Pedido{cliente='Elena', producto='Sushi', precio=70.0}]
+Nota: Para 1000 pedidos urgentes, LinkedList es más eficiente (inserción O(1)).
+
+=== Parte B: HashSet ===
+HashSet: [Pedido{cliente='Luis', producto='Hamburguesa', precio=25.0}, Pedido{cliente='Carlos', producto='Pizza', precio=55.0}, Pedido{cliente='Ana', producto='Pizza', precio=40.0}, Pedido{cliente='Ana', producto='Pizza', precio=40.0}, Pedido{cliente='Marta', producto='Ensalada', precio=15.0}]
+Nota: Los duplicados se eliminan automáticamente en un HashSet.
+
+=== Parte C: HashMap ===
+Pedidos de Ana: [Pedido{cliente='Ana', producto='Pizza', precio=40.0}, Pedido{cliente='Ana', producto='Sushi', precio=70.0}]
+Total gastado por Marta: $75.0
+Total gastado por Ana: $110.0
+Total gastado por Luis: $75.0
+
+=== Parte D: Genéricos ===
+Pedidos de Pizza: [Pedido{cliente='Ana', producto='Pizza', precio=40.0}, Pedido{cliente='Marta', producto='Pizza', precio=70.0}]
+Pedidos > $50: [Pedido{cliente='Marta', producto='Pizza', precio=70.0}, Pedido{cliente='Carlos', producto='Sushi', precio=80.0}]
