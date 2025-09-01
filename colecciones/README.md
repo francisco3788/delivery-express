@@ -1,18 +1,37 @@
-## Getting Started
+# Delivery Express
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Proyecto de práctica de **colecciones y genéricos en Java**.  
+Se implementan `ArrayList`, `LinkedList`, `HashSet`, `HashMap` y métodos genéricos para simular pedidos de delivery.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 👥 Integrantes
+- Yuly Bastidas
+- Danilo Carlosama
+- Francisco Molina
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## ⚙️ Cómo ejecutar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 1. Compilar
+Desde la raíz del proyecto, crea la carpeta `bin` (si no existe) y compila todas las clases:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```bash
+mkdir bin
+javac -d bin src/main/java/modelo/*.java src/main/java/colecciones/*.java src/main/java/app/*.java
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+
+
+
+explicación de cada parte
+
+Parte A: Uso de ArrayList y LinkedList para registrar pedidos en orden de llegada e inserción de pedidos urgentes.
+
+Parte B: Uso de HashSet para manejar duplicados.
+
+Parte C: Uso de HashMap para indexar pedidos por cliente y calcular el total gastado.
+
+Parte D: Implementación de método genérico filtrar y pruebas con productos específicos y montos mayores a 50.
